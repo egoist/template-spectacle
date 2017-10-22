@@ -1,0 +1,27 @@
+{
+  "name": "<%= name %>",
+  "description": "<%= description %>",
+  "author": "<%= username %> <<%= email %>>",
+  "homepage": "<%= website %>",
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "start": "serve dist"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "spectacle": "^2.2.2",
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "poi": "^9.4.1",
+    "poi-preset-react": "^9.1.0",
+    "serve": "^6.3.1"
+  },
+  "poi": {
+    "presets": [
+      "react"
+    ]
+  }
+}
